@@ -3,6 +3,7 @@
 }
 
 body {
+	width: 100%;
 	font-family: 'Merriweather', serif;
 }
 
@@ -10,11 +11,11 @@ body {
 ======================================*/
 
 .header	{
-	width: 100%;
 	height: 970px;
 	display: flex;
 	justify-content: center;
-	background: url(images/header_vegetables.png);
+	background: url(images/header_vegetables.png) no-repeat;
+	background-size: 100% 100%;
 }
 
 .container {
@@ -33,6 +34,10 @@ body {
 
 .col-md-7 {
 	width: 40%;
+}
+
+.col-md-5 {
+	width: 30%;
 }
 
 .menu_list {
@@ -68,5 +73,49 @@ body {
 }
 
 
+/*Main
+======================================*/
 
+/*Yellow block
+======================================*/
+
+.yellow_block_elements {
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.yellow_block {
+	height: 385px;
+	display: flex;
+	justify-content: center;
+	background: url(images/yellow_background.png);
+	background-size: 100% 100%;
+}
+
+.yellow_block_item {
+	text-align: center;
+}
+
+.yellow_block_item_h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #3c3c3c;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+.yellow_block_item_p {
+	color: #3c3c3c;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.yellow_block_img {
+	    line-height: 80px;
+    height: 80px;
+}
 
