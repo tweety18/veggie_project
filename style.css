@@ -8,3 +8,65 @@ body {
 
 /*Header
 ======================================*/
+
+.header	{
+	width: 100%;
+	height: 970px;
+	display: flex;
+	justify-content: center;
+	background: url(images/header_vegetables.png);
+}
+
+.container {
+	width: 1550px;
+	display: flex;
+}
+
+.col-md-17 {
+	width: 100%;
+	display: flex;
+}
+
+.col-md-10 {
+	width: 60%;
+}
+
+.col-md-7 {
+	width: 40%;
+}
+
+.menu_list {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-bottom: 315px;
+}
+
+.menu_list_item_link {
+	padding: 15px;
+	display: block;
+	color: #3c3c3c;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.menu_list_item:hover {
+	border: 1px solid #3c3c3c;
+}
+
+.title, .title_decoration {
+	text-align: center;
+}
+
+.title_h1 {
+	font-size: 40px;
+	color: #3c3c3c;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+
+
+
