@@ -23,6 +23,10 @@ body {
 	display: flex;
 }
 
+.wrap {
+	flex-wrap: wrap;
+}
+
 .col-md-17 {
 	width: 100%;
 	display: flex;
@@ -30,6 +34,10 @@ body {
 
 .col-md-10 {
 	width: 60%;
+}
+
+.col-md-8_5 {
+	width: 50%;
 }
 
 .col-md-7 {
@@ -87,7 +95,6 @@ body {
 }
 
 .yellow_block {
-	height: 385px;
 	display: flex;
 	justify-content: center;
 	background: url(images/yellow_background.png);
@@ -96,6 +103,7 @@ body {
 
 .yellow_block_item {
 	text-align: center;
+	margin-bottom: 90px;
 }
 
 .yellow_block_item_h2 {
@@ -115,7 +123,118 @@ body {
 }
 
 .yellow_block_img {
-	    line-height: 80px;
+	line-height: 80px;
     height: 80px;
 }
 
+/*This month specials
+======================================*/
+
+.specials {
+	display: flex;
+    width: 100%;
+    justify-content: center;
+ 
+}
+.specials_title {
+	margin: 0 auto;
+}
+.specials_title_h3 {
+	font-size: 40px;
+	font-weight: 300;
+	color: #3c3c3c;
+	margin-bottom: 25px;
+	margin-top: 80px;
+}
+
+.specials_item {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 55px;
+	margin-bottom: 100px;
+}
+
+.description_item {
+	width: 250px;
+	height: 250px;
+	background-color: #f8f8f8;
+	text-align: center;
+	padding-top: 70px;
+	padding-left: 25px;
+}
+
+.description_item_h4 {
+	margin-bottom: 20px;
+}
+.description_item_h4, .description_item_price {
+	font-size: 18px;
+	font-weight: 700;
+	color: #3c3c3c;
+}
+
+.border {
+	border-bottom: 1px solid #3c3c3c;
+	width: 90px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.description_item_p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #3c3c3c;
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+/*About us
+======================================*/
+
+.about_us {
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+	margin-bottom: 100px;
+	background-color: #eeefef;
+}
+
+.title_block {
+	display: flex;
+	justify-content: center;
+}
+
+.margin-top {
+	margin-top: 250px;
+}
+
+.margin-bottom {
+	margin-bottom: 55px;
+}
+
+.about_us_text {
+	text-align: center;
+}
+
+.about_us_text_p {
+	font-size: 30px;
+	font-weight: 300;
+	color: #3c3c3c;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+
+.signature {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 170px;
+}
+
+.shadow {
+	height: 830px;
+	background: url(images/shadow.png) no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	display: flex;
+    justify-content: center;
+
+}
