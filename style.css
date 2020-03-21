@@ -68,6 +68,9 @@ body {
 	width: 5%;
 }
 
+.menu {
+	
+}
 .menu_list {
 	display: flex;
 	justify-content: space-around;
@@ -75,8 +78,11 @@ body {
 	margin-bottom: 315px;
 }
 
-.menu_list_item_link {
+.menu_list_item {
 	padding: 15px;
+}
+
+.menu_list_item_link {
 	display: block;
 	color: #3c3c3c;
 	font-size: 18px;
@@ -85,6 +91,7 @@ body {
 }
 
 .menu_list_item:hover {
+	padding: 14px;
 	border: 1px solid #3c3c3c;
 }
 
@@ -300,18 +307,16 @@ body {
 	
 	border-bottom: 1px dotted #3c3c3c;
 	margin: 0 10px;
+	flex-grow: 1;
 }
 
 .column {
 	display: flex;
+	justify-content: space-between;
 }
 
 .space-between {
 	justify-content: space-between;
-}
-
-.name {
-	width: 100%;	
 }
 
 /*Footer
