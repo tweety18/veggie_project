@@ -32,8 +32,16 @@ body {
 	display: flex;
 }
 
+.col-md-14 {
+	width: 80%;
+}
+
 .col-md-10 {
 	width: 60%;
+}
+
+.col-md-9 {
+	width: 55%;
 }
 
 .col-md-8_5 {
@@ -46,6 +54,18 @@ body {
 
 .col-md-5 {
 	width: 30%;
+}
+
+.col-md-3 {
+	width: 20%;
+}
+
+.col-md-2 {
+	width: 15%;
+}
+
+.col-md-1 {
+	width: 5%;
 }
 
 .menu_list {
@@ -136,7 +156,7 @@ body {
     justify-content: center;
  
 }
-.specials_title {
+.specials_title, .menu_title {
 	margin: 0 auto;
 }
 .specials_title_h3 {
@@ -194,13 +214,13 @@ body {
 	display: flex;
 	justify-content: center;
 	margin-top: 55px;
-	margin-bottom: 100px;
 	background-color: #eeefef;
 }
 
 .title_block {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .margin-top {
@@ -238,3 +258,179 @@ body {
     justify-content: center;
 
 }
+
+/*Menu
+======================================*/
+
+.menu_block {
+	display: flex;
+	justify-content: center;
+}
+
+.menu_title {
+	margin-bottom: 55px;
+}
+
+.non-margin {
+	margin-top: 0px;
+	margin-bottom: 85px;
+}
+
+.dishes_list_item {
+	margin-bottom: 45px;
+}
+.dishes_list:last-child {
+	margin-bottom: 85px;
+}
+
+.dishes_list_item_h4 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #3c3c3c;
+}
+
+.dishes_list_item_p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #3c3c3c;
+	line-height: 2
+}
+
+.dotted {
+	
+	border-bottom: 1px dotted #3c3c3c;
+	margin: 0 10px;
+}
+
+.column {
+	display: flex;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.name {
+	width: 100%;	
+}
+
+/*Footer
+======================================*/
+
+/*Contacts
+======================================*/
+
+.contacts {
+	display: flex;
+	justify-content: center;
+	background: url(images/contacts_photo.png) no-repeat;
+	background-size: 100% 100%;
+	height: 965px;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+
+}
+
+
+.contacts_h4 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #3c3c3c;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.contacts_p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #3c3c3c;
+	line-height: 1.5;
+}
+
+.contact_info_block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.address, .reservation {
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.form {
+	display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.input {
+	width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.margin {
+	margin-top: 70px;
+	margin-bottom: 55px;
+}
+
+.input::-webkit-input-placeholder {
+	color: #3c3c3c;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.send_btn {
+	padding: 20px 30px;
+	color: #3c3c3c;
+	font-size: 18px;
+	font-weight: 300;
+	background: none;
+	border: 1px solid #3c3c3c;
+	margin-bottom: 190px;
+}
+
+.copyright_text {
+	color: #3c3c3c;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.social_menu {
+	display: flex;
+	justify-content: flex-end;
+}
+.margin-right {
+	margin-right: 15px;
+}
+.social_menu_item {
+	border: 1px solid #3c3c3c;
+}
+
+.social_menu_item_link {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 50px;
+	height: 50px;
+}
+
+.align-items {
+	align-items: center;
+}
+
+
