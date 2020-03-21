@@ -1,0 +1,115 @@
+/*Media
+======================================*/
+
+@media (max-width: 1440px) {
+
+	.container {
+		width: 1200px;
+		display: flex;
+	}
+
+	.menu_list {
+		margin-bottom: 100px;
+	}
+
+	.margin-bottom1 {
+		margin-bottom: 100px;
+	}
+	
+	.img_item {
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+	}
+	
+	.description_item {
+		width: 200px;
+		height: 200px;
+		background-color: #f8f8f8;
+		text-align: center;
+		padding: 20px 10px;
+	}
+
+	.description_item_p {
+		font-size: 15px;
+	}
+
+	.specials_title_h3 {
+		font-size: 40px;
+		font-weight: 300;
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	
+	.specials_item {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+
+	.yellow_block_elements {
+		padding: 30px;
+	}
+
+	.yellow_block_item {
+		margin-bottom: 0;
+	}
+	
+	.signature {
+		margin-bottom: 20px;
+	}
+
+	.sause-pan_img {
+		width: 500px;
+		height: 500px;
+	}
+	
+	.about_us_text_p {
+		font-size: 25px;
+	}
+
+	.non-margin {
+		margin-bottom: 30px;
+	}
+
+	.menu_title {
+		margin-bottom: 0;
+	}
+
+	.dishes_list:last-child {
+		margin-bottom: 0;
+	}
+
+	.dishes_list_item {
+		margin-bottom: 10px;
+	}
+
+	.dishes_list_item_p {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_h4, .description_item_price  {
+		font-size: 15px;
+	}
+
+	.address, .reservation {
+		margin-left: 30px;
+    	margin-bottom: 50px;
+	}
+
+	.form {
+		margin-left: 30px;
+	}
+
+	.margin {
+		 margin-top: 30px;
+    	margin-bottom: 40px;
+	}
+
+	.send_btn {
+		margin-bottom: 30px;
+	}
+
+	.contact_info_block {
+		margin-top: 10px;
+	}
+}

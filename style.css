@@ -11,7 +11,6 @@ body {
 ======================================*/
 
 .header	{
-	height: 970px;
 	display: flex;
 	justify-content: center;
 	background: url(images/header_vegetables.png) no-repeat;
@@ -68,9 +67,6 @@ body {
 	width: 5%;
 }
 
-.menu {
-	
-}
 .menu_list {
 	display: flex;
 	justify-content: space-around;
@@ -84,7 +80,6 @@ body {
 
 .menu_list_item_link {
 	display: block;
-	color: #3c3c3c;
 	font-size: 18px;
 	font-weight: 400;
 	text-decoration: none;
@@ -101,7 +96,6 @@ body {
 
 .title_h1 {
 	font-size: 40px;
-	color: #3c3c3c;
 	font-weight: 300;
 	line-height: 1.5;
 	margin-bottom: 40px;
@@ -137,13 +131,11 @@ body {
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 700;
-	color: #3c3c3c;
 	margin-top: 35px;
 	margin-bottom: 30px;
 }
 
 .yellow_block_item_p {
-	color: #3c3c3c;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5;
@@ -169,7 +161,6 @@ body {
 .specials_title_h3 {
 	font-size: 40px;
 	font-weight: 300;
-	color: #3c3c3c;
 	margin-bottom: 25px;
 	margin-top: 80px;
 }
@@ -179,6 +170,21 @@ body {
 	flex-wrap: wrap;
 	margin-top: 55px;
 	margin-bottom: 100px;
+}
+
+.img_item {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.img-parameters {
+	width: 100%;
+	height: 100%;
+}
+.reverse {
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .description_item {
@@ -196,7 +202,6 @@ body {
 .description_item_h4, .description_item_price {
 	font-size: 18px;
 	font-weight: 700;
-	color: #3c3c3c;
 }
 
 .border {
@@ -209,7 +214,6 @@ body {
 .description_item_p {
 	font-size: 16px;
 	font-weight: 300;
-	color: #3c3c3c;
 	margin-bottom: 15px;
 	line-height: 1.5;
 }
@@ -230,6 +234,10 @@ body {
 	flex-wrap: wrap;
 }
 
+.margin-bottom1 {
+	margin-bottom: 375px;
+}
+
 .margin-top {
 	margin-top: 250px;
 }
@@ -245,7 +253,6 @@ body {
 .about_us_text_p {
 	font-size: 30px;
 	font-weight: 300;
-	color: #3c3c3c;
 	margin-bottom: 50px;
 	line-height: 1.5;
 }
@@ -257,7 +264,6 @@ body {
 }
 
 .shadow {
-	height: 830px;
 	background: url(images/shadow.png) no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -293,13 +299,11 @@ body {
 .dishes_list_item_h4 {
 	font-size: 18px;
 	font-weight: 300;
-	color: #3c3c3c;
 }
 
 .dishes_list_item_p {
 	font-size: 18px;
 	font-weight: 300;
-	color: #3c3c3c;
 	line-height: 2
 }
 
@@ -330,7 +334,6 @@ body {
 	justify-content: center;
 	background: url(images/contacts_photo.png) no-repeat;
 	background-size: 100% 100%;
-	height: 965px;
 }
 
 .flex-end {
@@ -339,11 +342,9 @@ body {
 
 }
 
-
 .contacts_h4 {
 	font-size: 18px;
 	font-weight: 300;
-	color: #3c3c3c;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
@@ -351,7 +352,6 @@ body {
 .contacts_p {
 	font-size: 16px;
 	font-weight: 300;
-	color: #3c3c3c;
 	line-height: 1.5;
 }
 
@@ -388,7 +388,6 @@ body {
 }
 
 .input::-webkit-input-placeholder {
-	color: #3c3c3c;
 	font-size: 18px;
 	font-weight: 300;
 	font-style: italic;
@@ -400,8 +399,7 @@ body {
 }
 
 .send_btn {
-	padding: 20px 30px;
-	color: #3c3c3c;
+	padding: 15px 30px;
 	font-size: 18px;
 	font-weight: 300;
 	background: none;
@@ -410,11 +408,13 @@ body {
 }
 
 .copyright_text {
-	color: #3c3c3c;
 	font-size: 18px;
 	font-weight: 300;
 }
 
+.social_block {
+	margin-bottom: 20px;
+}
 .social_menu {
 	display: flex;
 	justify-content: flex-end;
@@ -437,5 +437,4 @@ body {
 .align-items {
 	align-items: center;
 }
-
 
