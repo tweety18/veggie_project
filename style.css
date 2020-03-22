@@ -172,6 +172,10 @@ body {
 	margin-bottom: 100px;
 }
 
+[class*="special_item_element"] {
+	display: flex;
+}
+
 .img_item {
 	width: 250px;
 	height: 250px;
@@ -182,8 +186,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.reverse {
-	display: flex;
+.special_item_element4, .special_item_element5, .special_item_element6 {
 	flex-direction: row-reverse;
 }
 

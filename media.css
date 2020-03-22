@@ -87,7 +87,7 @@
 		font-size: 10px;
 	}
 
-	.dishes_list_item_h4, .description_item_price  {
+	.dishes_list_item_h4, .dishes_list_item_price  {
 		font-size: 15px;
 	}
 
@@ -111,5 +111,100 @@
 
 	.contact_info_block {
 		margin-top: 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 950px;
+		display: flex;
+	}
+	
+	.specials_item {
+		width: 1024px;
+		justify-content: space-between;
+	}
+
+	.img_item {
+		width: 220px;
+		height: 220px;
+	}
+
+	.description_item {
+		width: 220px;
+		height: 220px;
+	}
+
+	.menu_list_item {
+		padding: 10px;
+	}
+
+	.menu_list_item:hover {
+		padding: 9px;
+	}
+
+	.title_h1 {
+		font-size: 30px;
+	}
+	
+	.special_item_element1, .special_item_element5 {
+		flex-direction: row-reverse;
+	}
+
+	.special_item_element6 {
+		flex-direction: row;
+	}
+
+	.specials_title_h3 {
+		font-size:30px;
+	}
+
+	.about_us_text_p {
+		font-size: 20px;
+	}
+
+	.signature_img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_p {
+		font-size: 8px;
+	}
+
+	.contacts_h4 {
+		font-size: 15px;
+	}
+
+	.address, .reservation, .form {
+		margin-left: 20px;
+	}
+
+	.contacts_p {
+		font-size: 13px;
+	}
+
+	.input {
+		padding-left: 10px;
+    	padding-bottom: 5px;
+	}
+
+	.input::-webkit-input-placeholder {
+		font-size: 15px;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.send_btn {
+		padding: 10px 20px;
+	}
+
+	.social_menu_item_link {
+		width: 40px;
+		height: 40px;
 	}
 }
