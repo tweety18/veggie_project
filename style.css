@@ -67,6 +67,10 @@ body {
 	width: 5%;
 }
 
+.menu-hidden {
+	display: none;
+}
+
 .menu_list {
 	display: flex;
 	justify-content: space-around;
@@ -267,12 +271,25 @@ body {
 }
 
 .shadow {
+	width: 770px;
+	height: 770px;
 	background: url(images/shadow.png) no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
 	display: flex;
     justify-content: center;
 
+}
+
+.sause-pan_img {
+	width: 770px;
+	height: 770px;
+}
+
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*Menu
