@@ -71,6 +71,14 @@ body {
 	display: none;
 }
 
+.hidden {
+	display: none;
+}
+
+.hidden1 {
+	display: none;
+}
+
 .menu_list {
 	display: flex;
 	justify-content: space-around;
@@ -117,6 +125,10 @@ body {
     width: 100%;
     justify-content: space-between;
     padding-top: 65px;
+}
+
+.yellow_block_elements-hidden {
+	display: none;
 }
 
 .yellow_block {
@@ -186,10 +198,6 @@ body {
 	overflow: hidden;
 }
 
-.img-parameters {
-	width: 100%;
-	height: 100%;
-}
 .special_item_element4, .special_item_element5, .special_item_element6 {
 	flex-direction: row-reverse;
 }

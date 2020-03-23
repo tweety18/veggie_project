@@ -3,8 +3,22 @@
 
 @media (max-width: 1440px) {
 
+	.specials_item {
+		display: flex;
+    	justify-content: center;
+	}
+
+	.special_item_element3 {
+		flex-direction: row-reverse;
+	}
+
+	.special_item_element5, .special_item_element6 {
+		flex-direction: row;
+	}
+
 	.container {
-		width: 1200px;
+		width: 80%;
+		max-width: 1200px;
 		display: flex;
 	}
 
@@ -58,9 +72,9 @@
 		margin-bottom: 20px;
 	}
 
-	.sause-pan_img {
-		width: 500px;
-		height: 500px;
+	.sause-pan_img, .shadow {
+		width: 400px;
+		height: 400px;
 	}
 	
 	.about_us_text_p {
@@ -118,13 +132,14 @@
 ======================================*/
 @media (max-width: 1024px) {
 	.container {
-		width: 950px;
+		width: 80%;
+		max-width: 950px;
 		display: flex;
 	}
 	
 	.specials_item {
-		width: 1024px;
-		justify-content: space-between;
+		/*width: 1024px;*/
+		justify-content: center;
 	}
 
 	.img_item {
@@ -153,7 +168,7 @@
 		flex-direction: row-reverse;
 	}
 
-	.special_item_element6 {
+	.special_item_element6, .special_item_element4 {
 		flex-direction: row;
 	}
 
@@ -216,7 +231,8 @@
 
 @media (max-width: 768px) {
 	.container {
-		width: 500px;
+		width: 80%;
+		max-width: 500px;
 		display: flex;
 	}
 
@@ -435,3 +451,154 @@
 		margin-right: 5px;
 	}
 }
+
+@media (max-width: 500px) {
+	.container {
+		width: 80%;
+		max-width: 300px;
+		display: flex;
+	}
+
+	.img_item {
+		width: 150px;
+		height: 150px;
+	}
+
+	.description_item {
+		width: 150px;
+		height: 150px;
+	}
+
+	.menu-hidden {
+		margin-right: 0px;
+	}
+
+	.title_h1 {
+		font-size: 15px;
+    	line-height: 1
+	}
+
+	.margin-bottom1 {
+		margin-bottom:0px;
+	}
+
+	.yellow_block_elements {
+		display: none;
+	}
+
+	.yellow_block_elements-hidden {
+		display: flex;
+   		flex-direction: column;
+   		margin: 20px;
+	}
+
+	.col-md-17 {
+		justify-content: center;
+		display: flex;
+	}
+
+	.header-menu {
+		font-size: 15px;
+		color: white;
+    	font-weight: 700;
+    	text-shadow: 2px 2px 2px black, 5px 5px 5px yellow;
+	}
+
+	.menu_list {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.title_block {
+		margin-top: 10px;
+	}
+
+	.yellow_block_photo  {
+		width: 100px;
+		height: 100px;
+	}
+
+	.yellow_block_photo_kettle {
+		width: 100px;
+		height: 80px;
+	}
+
+	.yellow_block_img {
+		height: 100px;
+	}
+
+	.yellow_block_item_h2 {
+		margin-top: 20px;
+	    margin-bottom: 10px;
+	    font-size: 15px;
+	}
+
+	.yellow_block_item_p {
+		font-size: 10px;
+	}
+
+	.yellow_block_item {
+		margin-bottom: 10px;
+	}
+
+	.description_item_p  {
+		font-size: 10px;
+	}
+
+	.description_item_h4, .description_item_price {
+		font-size: 15px;
+	}
+
+	.description_item_h4 {
+		margin-bottom: 5px;
+	}
+
+	.sause-pan_img, .shadow {
+		width: 150px;
+		height: 150px;
+	}
+
+	.dishes {
+		display: none;
+	}
+
+	.space-between {
+		display: contents;
+	}
+
+	.hidden {
+		display: flex;
+	}
+
+	.dishes_list_item_p {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price {
+		font-size: 15px;
+	}
+
+	.display-none1 {
+		display: none;
+	}
+
+	.contact_info_block1 {
+		display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.address, .reservation, .form {
+		margin-left: 0px;
+	}
+
+	.address, .reservation {
+		text-align: center;
+	}
+
+	.reservation {
+		margin-bottom: 20px;
+	}
+}
+
