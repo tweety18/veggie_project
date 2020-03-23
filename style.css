@@ -279,8 +279,6 @@ body {
 }
 
 .shadow {
-	width: 770px;
-	height: 770px;
 	background: url(images/shadow.png) no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -289,9 +287,9 @@ body {
 
 }
 
-.sause-pan_img {
-	width: 770px;
-	height: 770px;
+.sause-pan_img, .shadow {
+	width: 100%;
+	height: 100%;
 }
 
 .display {
